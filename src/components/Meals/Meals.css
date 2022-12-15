@@ -1,0 +1,15 @@
+.mealcard-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mealcard {
+  margin-top: 22px;
+  width: 28%;
+}
+
+.no-result {
+  font-size: 25px;
+  margin-top: 10%;
+}

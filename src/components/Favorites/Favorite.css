@@ -1,0 +1,27 @@
+.favorite-wrapper {
+  text-align: center;
+}
+
+.favorite-header {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.favorite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-text {
+  width: 210px;
+}
+.favorite-img {
+  width: 100px;
+}
+
+.favorite-title {
+  font-size: 22px;
+  font-weight: 600;
+}
