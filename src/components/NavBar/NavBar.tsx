@@ -14,7 +14,7 @@ export default function NavBar({ totalFavorite }: Total) {
           src='https://cdn-icons-png.flaticon.com/512/2388/2388956.png'
           alt='logo'
         />
-        <p>YUMYUM</p>
+        <p>YUMMY</p>
       </div>
       <div className='menu'>
         <Link style={style} to='/'>
