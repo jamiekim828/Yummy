@@ -77,7 +77,20 @@ function App() {
   };
 
   // remove from favorite meal on click heart
-  const deleteFavorite = (recipe: Meal) => {};
+  const deleteFavorite = (recipe: Meal) => {
+    let favoriteArray = [...favoriteMeal];
+    let recipeIndex = favoriteArray.findIndex(
+      (item) => item.idMeal === recipe.idMeal
+    );
+    if (recipeIndex !== -1) {
+      setFavoriteMeal(
+        favoriteMeal.filter(
+          (item) => favoriteMeal.indexOf(item) !== recipeIndex
+        )
+      );
+      setTotalFavorite((totalFavorite) => totalFavorite - 1);
+    }
+  };
 
   return (
     <div className='App'>
