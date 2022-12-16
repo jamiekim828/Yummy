@@ -24,14 +24,14 @@
 }
 
 span {
-  margin-left: 20px;
+  margin-right: 20px;
   font-size: 16px;
 }
 
 .total-number {
   font-size: 10px;
 }
-
+/* 
 .badge {
   padding-left: 9px;
   padding-right: 9px;
@@ -51,4 +51,4 @@ span {
   padding: 0 5px;
   vertical-align: top;
   margin-left: -0.5px;
-}
+} */
