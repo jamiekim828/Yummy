@@ -20,6 +20,7 @@ export type Meal = {
   strMeasure1: string;
   strMeasure2: string;
   strMeasure3: string;
+  strYoutube: string;
 };
 
 function App() {

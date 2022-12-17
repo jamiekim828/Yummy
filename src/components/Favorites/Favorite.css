@@ -8,6 +8,11 @@
   margin-top: 50px;
 }
 
+.click {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
 .favorite {
   display: flex;
   align-items: center;
