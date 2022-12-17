@@ -1,9 +1,12 @@
-import React from 'react';
+import ClearIcon from '@mui/icons-material/Clear';
 
 import { FavoriteType } from '../../pages/Favorite';
 import './Favorite.css';
 
-export default function Favorites({ favoriteMeal }: FavoriteType) {
+export default function Favorites({
+  favoriteMeal,
+  deleteFavorite,
+}: FavoriteType) {
   return (
     <div className='favorite-wrapper'>
       <p className='favorite-header'>Favorite Recipe List</p>
@@ -25,6 +28,12 @@ export default function Favorites({ favoriteMeal }: FavoriteType) {
               alt={f.strMeal}
               className='favorite-img'
             />
+            <div className='favorite-delete'>
+              <ClearIcon
+                onClick={() => deleteFavorite(f)}
+                style={{ cursor: 'pointer' }}
+              />
+            </div>
           </div>
         ))
       )}

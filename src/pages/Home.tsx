@@ -16,11 +16,21 @@ export default function Home() {
         from famous chefs
       </p>
       <div className='popular-images'>
-        <img src={cake} alt='cake' />
-        <img src={shrimp} alt='shrimp' />
-        <img src={pizza} alt='pizza' />
-        <img src={salad} alt='salad' />
-        <img src={chicken} alt='chicken' />
+        <a>
+          <img src={cake} alt='cake' />
+        </a>
+        <a>
+          <img src={shrimp} alt='shrimp' />
+        </a>
+        <a>
+          <img src={pizza} alt='pizza' />
+        </a>
+        <a>
+          <img src={salad} alt='salad' />
+        </a>
+        <a>
+          <img src={chicken} alt='chicken' />
+        </a>
       </div>
     </div>
   );

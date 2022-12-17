@@ -43,8 +43,13 @@
   padding-top: 16px;
 }
 
+.popular-images a {
+  cursor: pointer;
+}
+
 .popular-images img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
+  border: 3px solid black;
 }

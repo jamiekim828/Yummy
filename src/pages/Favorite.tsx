@@ -5,12 +5,16 @@ import { Meal } from '../App';
 
 export type FavoriteType = {
   favoriteMeal: Meal[];
+  deleteFavorite: Function;
 };
 
-export default function Favorite({ favoriteMeal }: FavoriteType) {
+export default function Favorite({
+  favoriteMeal,
+  deleteFavorite,
+}: FavoriteType) {
   return (
     <div>
-      <Favorites favoriteMeal={favoriteMeal} />
+      <Favorites favoriteMeal={favoriteMeal} deleteFavorite={deleteFavorite} />
     </div>
   );
 }

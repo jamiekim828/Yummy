@@ -113,7 +113,12 @@ function App() {
         ></Route>
         <Route
           path='/favorite'
-          element={<Favorite favoriteMeal={favoriteMeal} />}
+          element={
+            <Favorite
+              favoriteMeal={favoriteMeal}
+              deleteFavorite={deleteFavorite}
+            />
+          }
         ></Route>
         <Route path='/contact' element={<Contact />}></Route>
       </Routes>
