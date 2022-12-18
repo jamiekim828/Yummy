@@ -1,3 +1,7 @@
+# Deploy link
+
+- https://isa-6-yummy-project.vercel.app/
+
 # Yummy - React App
 
 The purpose of this assignment is to practice TypeScript
